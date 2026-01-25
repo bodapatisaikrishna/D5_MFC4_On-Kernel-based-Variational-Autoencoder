@@ -1,6 +1,6 @@
 # D5_MFC4_On-Kernel-based-Variational-Autoencoder
 
-t
+
 
 This repository contains Jupyter Notebooks implementing Variational Autoencoders (VAE) and EVAE variants using PyTorch, trained on the MNIST dataset.
 
