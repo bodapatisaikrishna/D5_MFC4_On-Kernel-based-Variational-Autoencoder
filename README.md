@@ -130,7 +130,6 @@ This project includes the following releases:
 
 ### Latest Release: eval_2
 - **Tag**: `eval_2` (Latest)
-- **Date**: 4 minutes ago (2026-03-13)
 - **Description**: Final release containing END SEMESTER REPORT and related codes and files.
 - **Assets**: 
   - Final_EVAE_Doc.mlx (1.01 MB)
