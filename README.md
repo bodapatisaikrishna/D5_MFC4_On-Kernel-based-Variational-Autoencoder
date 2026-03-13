@@ -122,29 +122,7 @@ The code requires the following Python libraries:
   - KDE-based posteriors require additional compute (multiple samples per data point for KDE construction) and careful tuning of kernel bandwidth, number of samples S, and architectural choices.
   - Results may vary with dataset complexity (MNIST is relatively simple; more challenging datasets will reveal strengths/limitations more clearly).
 
-## Future plans
 
-Short-term:
-- Run systematic experiments across:
-  - Different latent dimensions, kernel bandwidths, and S (samples for KDE).
-  - Ablations comparing Epanechnikov kernel to Gaussian and other kernels.
-  - Quantitative metrics including FID, Sharpness, and held-out ELBO.
-
-Medium/long-term applications (serious application where the solution can be used):
-- Medical imaging reconstruction and anomaly detection:
-  - Sharper and less noisy reconstructions (compared to standard VAEs) could improve detection of subtle anomalies in modalities such as X-ray, CT, or MRI, where small features matter.
-  - Use-case: train EVAE on normal/healthy images; anomalies (disease signatures) are detected as inputs with low reconstruction probability or out-of-distribution latent codes.
-- Remote-sensing / satellite imagery:
-  - High-fidelity generation and denoising for preprocessing pipelines, change detection, and synthesis of missing spectral bands.
-- Image restoration and super-resolution:
-  - Combining EVAE with conditional setups to produce higher-quality restorations with less blur.
-
-Extensions:
-- Combine kernel-based posterior with more expressive decoders (e.g., autoregressive or flows) and/or incorporate normalizing flows into the encoder for further flexibility.
-- Explore conditional EVAE variants for supervised generation tasks.
-- Optimize compute: approximate KDE methods, learnable bandwidth schedules, and better sample reuse strategies.
-
----
 
 ## Releases
 
