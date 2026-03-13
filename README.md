@@ -1,6 +1,7 @@
 # D5_MFC4_On-Kernel-based-Variational-Autoencoder
 
-This repository contains implementing Variational Autoencoders (VAE) and EVAE variants using PyTorch, trained on the MNIST dataset.
+This repository contains implementing Variational Autoencoders (VAE) and EVAE variants trained on the MNIST dataset.
+
 
 ## Team Members
 *   **[Bodapati Sai krishna]** - [CB.SC.U4AIE24308]
