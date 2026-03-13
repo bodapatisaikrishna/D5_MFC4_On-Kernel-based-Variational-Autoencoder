@@ -144,3 +144,34 @@ Extensions:
 - Optimize compute: approximate KDE methods, learnable bandwidth schedules, and better sample reuse strategies.
 
 ---
+
+## Releases
+
+This project includes the following releases:
+
+### Latest Release: eval_2
+- **Tag**: `eval_2` (Latest)
+- **Date**: 4 minutes ago (2026-03-13)
+- **Description**: Final release containing END SEMESTER REPORT and related codes and files.
+- **Assets**: 
+  - Final_EVAE_Doc.mlx (1.01 MB)
+  - MFC_EVAE.ipynb (471 KB)
+  - MFC_VAE.ipynb (466 KB)
+  - PILAE_MNIST.mlx (9.69 KB)
+  - PIL_VAE5.mlx (18.7 KB)
+  - Source code (zip and tar.gz)
+
+### Release: eval_1
+- **Tag**: `eval_1`
+- **Date**: January 31, 2026
+- **Description**: Initial evaluation release with foundational code and notebooks.
+- **Assets**: 5 assets included
+
+### Release: Why Pseudo-Inverse Fails in EVAE
+- **Tag**: `pinv_check_in_evae`
+- **Date**: January 31, 2026
+- **Description**: Analysis and documentation on why Pseudo Inverse cannot be used in standard EVAE. As an extension, work is being done on a new architecture to incorporate Pseudo Inverse as an alternative solution rather than making changes to EVAE. The new release will include related codes and documentation required.
+- **Assets**: 
+  - evae vs pinv.pdf (Documentation)
+
+All releases are available in the [Releases section](https://github.com/bodapatisaikrishna/D5_MFC4_On-Kernel-based-Variational-Autoencoder/releases) of this repository.
