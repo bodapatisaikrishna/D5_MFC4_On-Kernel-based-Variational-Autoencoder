@@ -1,6 +1,6 @@
 # D5_MFC4_On-Kernel-based-Variational-Autoencoder
 
-This repository contains implementing Variational Autoencoders (VAE) and EVAE variants trained on the MNIST dataset.
+This repository contains implementing Variational Autoencoders (VAE) and EVAE variants.
 
 
 ## Team Members
