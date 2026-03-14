@@ -124,6 +124,12 @@ The code requires the following Python libraries:
 
 
 
+## platform used :Jupyter Notebook, Matlab
+hardware : CPU nad MAC MPS 
+time taken : Around 5 minutes varying according to dataset
+Matlab and Python
+
+
 ## Releases
 
 This project includes the following releases:
